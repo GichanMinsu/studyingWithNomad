@@ -1,0 +1,55 @@
+
+body{
+    color: white;
+}
+
+h1{
+    font-size: 300%;
+}
+    /* height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+.firstDiv{
+    padding-top:1%;
+    padding-left:1%;
+}
+
+.secondDiv{
+    margin-top: 15%; 
+    text-align:center;
+}
+
+.thirdDiv{
+    margin-top:7%;
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* image background 애니메이션 */
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.bgImage{
+    position:absolute;
+    top:0; left:0;
+    width:100%; height:100%;
+    z-index:-3;
+    animation: fadeIn 0.5s ease;
+}
